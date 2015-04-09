@@ -1,0 +1,10 @@
+*.gem
+*.log
+.bundle
+.yardoc
+.ruby-version
+Gemfile.lock
+doc
+pkg/*
+.idea/*
+test/zk_server_data
