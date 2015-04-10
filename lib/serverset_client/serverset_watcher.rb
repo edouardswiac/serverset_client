@@ -75,7 +75,7 @@ module ServersetClient
       end
 
       unless new_services.empty?
-        @local_serverset_lock.ssynchronize do
+        @local_serverset_lock.synchronize do
           @local_serverset.merge!(new_services)
           @local_serverset_dirty = true
         end
